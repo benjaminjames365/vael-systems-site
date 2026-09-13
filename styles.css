@@ -38,12 +38,11 @@ body {
     var(--background);
 }
 
-.brand {
-  font-size: 1.1rem;
-  letter-spacing: 0.35rem;
-  color: var(--accent);
-  font-weight: bold;
-  margin-bottom: 1.5rem;
+.vael-logo {
+  display: block;
+  width: min(650px, 95%);
+  height: auto;
+  margin: 0 0 2.5rem 0;
 }
 
 .eyebrow,
@@ -126,6 +125,11 @@ footer p {
 @media (max-width: 700px) {
   .hero {
     min-height: 65vh;
+  }
+
+  .vael-logo {
+    width: 100%;
+    margin-bottom: 2rem;
   }
 
   .grid {
